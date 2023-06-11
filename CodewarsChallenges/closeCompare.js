@@ -1,0 +1,1 @@
+const closeCompare = (a, b, m = 0) => Math.abs(a - b) <= m? 0: Math.sign(a - b);
