@@ -1,2 +1,2 @@
 // Your task is to split the chocolate bar of given dimension n x m into small squares. Each square is of size 1x1 and unbreakable. Implement a function that will return minimum number of breaks needed.
-const chocoBreak = (n,m) => n === 0 || m ===0 ? 0 : (n*m) - 1;
+const chocoBreak = (n,m) => n === 0 || m === 0 ? 0 : (n*m) - 1;
